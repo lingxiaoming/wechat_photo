@@ -1,4 +1,4 @@
-package com.example.android_findpath_pic;
+package com.example.wxhelper;
 
 import java.util.HashMap;
 import java.util.Iterator;

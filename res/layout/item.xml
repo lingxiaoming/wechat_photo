@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_picture"
+    android:padding="10dp">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/tv_imagename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="58dp"
-        android:background="#cccccc"
-        android:orientation="vertical" >
+        android:text="图片的名称"
+        android:visibility="gone" />
 
-        <TextView
-            android:id="@+id/imagename"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="图片的名称" />
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher" />
-    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
